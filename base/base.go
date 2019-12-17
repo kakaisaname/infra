@@ -12,7 +12,6 @@ import (
 //check函数的作用是检查传入的参数是否为nil，如果是nil，会报错
 func Check(a interface{}) {
 	if a == nil {
-
 		//skip 代表层级
 		//层次为0的时候返回我们调用runtime.Caller的地方.为1的时候就是我们调用call函数的地方
 		//2 3 是go源码的调用
