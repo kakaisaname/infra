@@ -1,8 +1,8 @@
 package infra
 
 import (
+	"github.com/kakaisaname/props/kvs"
 	log "github.com/sirupsen/logrus"
-	"github.com/tietang/props/kvs"
 	"reflect"
 )
 
@@ -11,12 +11,12 @@ import (
 //资源启动器上下文， 用来在服务资源初始化、安装、启动和停止的生命周期中变量和对象的传递
 type BootApplication struct {
 	IsTest     bool
-	conf       kvs.ConfigSource
+	conf       *kvs.ConfigSource
 	StarterCtx StarterContext
 }
 
 //构造系统  初始化配置文件
-func New(conf kvs.ConfigSource) *BootApplication {
+func New(conf *kvs.ConfigSource) *BootApplication {
 	e := &BootApplication{conf: conf, StarterCtx: StarterContext{}} //初始化配置文件 和 资源启动器上下文
 	e.StarterCtx.SetProps(conf)
 	return e

@@ -1,8 +1,8 @@
 package infra
 
 import (
+	"github.com/kakaisaname/props/kvs"
 	log "github.com/sirupsen/logrus"
-	"github.com/tietang/props/kvs"
 	"reflect"
 	"sort"
 )
@@ -30,7 +30,7 @@ func (s StarterContext) Props() kvs.ConfigSource {
 }
 
 //设置配置   **
-func (s StarterContext) SetProps(conf kvs.ConfigSource) {
+func (s StarterContext) SetProps(conf *kvs.ConfigSource) {
 	s[KeyProps] = conf
 }
 
