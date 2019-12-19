@@ -2,12 +2,12 @@ package base
 
 import (
 	"fmt"
-	"github.com/kakaisaname/props/kvs"
 	rotatelogs "github.com/lestrrat/go-file-rotatelogs"
 	"github.com/mattn/go-colorable"
 	"github.com/rifflock/lfshook"
 	log "github.com/sirupsen/logrus"
 	"github.com/tietang/go-utils"
+	"github.com/tietang/props/kvs"
 	prefixed "github.com/x-cray/logrus-prefixed-formatter"
 	"io"
 	"os"

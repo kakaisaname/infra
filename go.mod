@@ -25,7 +25,6 @@ require (
 	github.com/jehiah/go-strftime v0.0.0-20171201141054-1d33003b3869 // indirect
 	github.com/json-iterator/go v1.1.8 // indirect
 	github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88 // indirect
-	github.com/kakaisaname/props v1.1.1
 	github.com/kataras/golog v0.0.10 // indirect
 	github.com/kataras/iris v11.1.1+incompatible
 	github.com/klauspost/compress v1.9.4 // indirect
@@ -34,7 +33,6 @@ require (
 	github.com/lestrrat/go-file-rotatelogs v0.0.0-20180223000712-d3151e2a480f
 	github.com/lestrrat/go-strftime v0.0.0-20180220042222-ba3bf9c1d042 // indirect
 	github.com/mattn/go-colorable v0.1.4
-	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
 	github.com/microcosm-cc/bluemonday v1.0.2 // indirect
 	github.com/moul/http2curl v1.0.0 // indirect
 	github.com/onsi/ginkgo v1.10.3 // indirect
@@ -50,6 +48,7 @@ require (
 	github.com/tietang/dbx v1.0.0
 	github.com/tietang/go-eureka-client/eureka v0.0.0-20190327071554-ed5a2bb78851
 	github.com/tietang/go-utils v0.1.3
+	github.com/tietang/props v2.3.0+incompatible
 	github.com/x-cray/logrus-prefixed-formatter v0.5.2
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
 	github.com/yalp/jsonpath v0.0.0-20180802001716-5cc68e5049a0 // indirect
