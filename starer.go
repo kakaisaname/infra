@@ -30,7 +30,7 @@ func (s StarterContext) Props() kvs.ConfigSource {
 }
 
 //设置配置   **
-func (s StarterContext) SetProps(conf *kvs.ConfigSource) {
+func (s StarterContext) SetProps(conf kvs.ConfigSource) {
 	s[KeyProps] = conf
 }
 
