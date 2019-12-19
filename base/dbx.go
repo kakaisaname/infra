@@ -4,9 +4,9 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/kakaisaname/infra"
 	"github.com/kakaisaname/infra/logrus"
+	"github.com/kakaisaname/props/kvs"
 	log "github.com/sirupsen/logrus"
 	"github.com/tietang/dbx"
-	"github.com/tietang/props/kvs"
 )
 
 //dbx 数据库实例

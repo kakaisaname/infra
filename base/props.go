@@ -2,8 +2,8 @@ package base
 
 import (
 	"github.com/kakaisaname/infra"
+	"github.com/kakaisaname/props/kvs"
 	"github.com/prometheus/common/log"
-	"github.com/tietang/props/kvs"
 	"sync"
 )
 
